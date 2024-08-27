@@ -8,7 +8,7 @@
 
 /*pt1*/
 
-body{background-color: red;
+body{width: 100%;
     /*#e4e4e4*/
 
 }
@@ -16,14 +16,14 @@ body{background-color: red;
 div#pt1{
     position: relative;
     background-color: #e4e4e4;
-    width:100vw;
+    width:100%;
     height: 100vh;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.719);
     
 }
 
 div#pt1 > div#pt1cnt{
-    width: 100vw;
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -69,6 +69,7 @@ div#pt1 > div#pt1cnt > input.sub{
     background-color: #383843;
     color: white;
     border: 1px solid #383843;
+    transition: 0.5s;
 }
 
 div#pt1 > div#pt1cnt > input.sub:hover{
@@ -76,14 +77,16 @@ div#pt1 > div#pt1cnt > input.sub:hover{
     color: #383843;
     font-weight: bolder;
     background-color: #ffffff;
+    transition: 0.5s;
 }
 
 /*acabou a pt1 do site agr a pt2*/
 
 div#pt2{
     background-color: #333333;
-    width:100vw;
+    width:100%;
     height: 50vh;
+    border-bottom:1px dashed #383843;
     
 }
 
@@ -106,17 +109,25 @@ div#pt2 > div#pt2cnt > p{
 div#pt3{
     display: flex;
     background-color: #333333;
-    width:100vw;
+    width:100%;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-top: 20px;
     
 }
 
-div#pt3 > div#box3{
+div#pt3 > div#conteinerbx3{
     display: flex;
-    width: 250px;
-    height: 250px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div#pt3 > div#conteinerbx3 > div#box3{
+    display: flex;
+    min-width: 250px;
+    max-width: 500px;
+    min-height: 250px;
+    max-height: 500px;
     background-color: #404040;
     border-radius: 20px;
     justify-content: center;
@@ -124,15 +135,15 @@ div#pt3 > div#box3{
     text-align: center;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 25px;
+    margin: 5px 15px 15px 25px;
 }
 
-div#pt3 > div#box3 > div.cntbx3 > h1{
+div#pt3 > div#conteinerbx3 > div#box3 > div.cntbx3 > h1{
     font-size: 2.2em;
     padding-bottom: 20px;
 }
 
-div#pt3 > div#box3 > div.cntbx3 > p{
+div#pt3 > div#conteinerbx3 > div#box3 > div.cntbx3 > p{
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
     color: rgb(255, 255, 156);
