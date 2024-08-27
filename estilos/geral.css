@@ -8,13 +8,14 @@
 
 /*pt1*/
 
-body{background-color: #e4e4e4;
+body{background-color: red;
+    #e4e4e4
 
 }
 
 div#pt1{
-    display: relative;
-    background-color: #ffffff;
+    position: relative;
+    background-color: #e4e4e4;
     width:100vw;
     height: 100vh;
     
@@ -77,3 +78,22 @@ div#pt1 > div#pt1cnt > input.sub:hover{
 }
 
 /*acabou a pt1 do site agr a pt2*/
+
+div#pt2{
+    background-color: #333333;
+    width:100vw;
+    height: 50vh;
+    
+}
+
+div#pt2 > div#pt2cnt > h1{
+    padding: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div#pt2 > div#pt2cnt > p{
+    color: white;
+    padding: 20px 20px 20px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
