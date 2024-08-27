@@ -132,3 +132,9 @@ div#pt3 > div#box3 > div.cntbx3 > h1{
     padding-bottom: 20px;
 }
 
+div#pt3 > div#box3 > div.cntbx3 > p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    color: rgb(255, 255, 156);
+}
+
