@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/*pt1*/
+
 body{background-color: #e4e4e4;
 
 }
@@ -58,18 +60,20 @@ div#pt1 > div#pt1cnt > input.txt{
 }
 
 div#pt1 > div#pt1cnt > input.sub{
-    padding: 5px;
     margin: 0px 10px 10px 10px;
+    padding: 10px;
     height: 50px;
     border-radius: 10px;
     background-color: #383843;
     color: white;
-    border: none;
-    transition: 0.5s;
+    border: 1px solid #383843;
 }
 
 div#pt1 > div#pt1cnt > input.sub:hover{
     cursor: pointer;
-    border: 2px solid rgb(73, 20, 73);
-    transition: 0.5s;
+    color: #383843;
+    font-weight: bolder;
+    background-color: #ffffff;
 }
+
+/*acabou a pt1 do site agr a pt2*/
