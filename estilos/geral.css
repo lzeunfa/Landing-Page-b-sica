@@ -33,13 +33,14 @@ div#pt1 > div#pt1cnt > img{border-radius: 50%;
 
 div#pt1 > div#pt1cnt > h1{
     color: #333333;
-    font-size: 2.1em;
+    font-size: 2.2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px 10px 20px 30px;
 }
 
 div#pt1 > div#pt1cnt > p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
     text-align: left;
     color: #333333;
     padding: 10px 10px 30px 30px;
