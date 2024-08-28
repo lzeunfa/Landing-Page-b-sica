@@ -11,7 +11,7 @@
 @media  screen and (min-width:680px) and (max-width:787px){
     div#pt1 > div#pt1cnt > img#seta{
         position: fixed;
-        top: 85%;
+        top: 80%;
         left: 90%;
     }
 }
@@ -19,7 +19,7 @@
 @media screen and (min-width:788px) and (max-width:922px){
     div#pt1 > div#pt1cnt > img#seta{
         position: fixed;
-        top: 85%;
+        top: 80%;
         left: 92%;
     }
 }
@@ -27,7 +27,7 @@
 @media screen and (min-width:923px){
     div#pt1 > div#pt1cnt > img#seta{
         position: fixed;
-        top: 95%;
+        top: 90%;
         left: 94%;
     }
 }
