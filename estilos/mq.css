@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@media screen and (min-width:553px){
+    div#pt1 > div#pt1cnt > img#seta{
+        position: fixed;
+        top: -10%;
+        left: 88%;
+    }
+}
