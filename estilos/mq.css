@@ -1,9 +1,35 @@
 @charset "UTF-8";
 
-@media screen and (min-width:553px){
+@media screen and (min-width:553px) and (max-width:679px){
     div#pt1 > div#pt1cnt > img#seta{
         position: fixed;
         top: -10%;
         left: 88%;
     }
 }
+
+@media  screen and (min-width:680px) and (max-width:787px){
+    div#pt1 > div#pt1cnt > img#seta{
+        position: fixed;
+        top: 115%;
+        left: 90%;
+    }
+}
+
+@media screen and (min-width:788px) and (max-width:922px){
+    div#pt1 > div#pt1cnt > img#seta{
+        position: fixed;
+        top: 120%;
+        left: 92%;
+    }
+}
+
+@media screen and (min-width:923px){
+    div#pt1 > div#pt1cnt > img#seta{
+        position: fixed;
+        top: 120%;
+        left: 94%;
+    }
+}
+
+

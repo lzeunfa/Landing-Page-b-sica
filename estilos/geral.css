@@ -9,8 +9,7 @@
 /*pt1*/
 
 body{width: 100%;
-    /*#e4e4e4*/
-
+    transition: ease;
 }
 
 div#pt1{
