@@ -8,8 +8,22 @@
 
 /*pt1*/
 
+/*transição para mudar temas*/
 body{width: 100%;
     transition: ease;
+    background-color: #e4e4e4;
+}
+
+/*tema claro*/
+body.light-theme{
+    background-color: #e4e4e4;
+    color: #333333;
+}
+
+/*tema escuro*/
+body.dark-theme{
+    background-color: #333333;
+    color: #e4e4e4;
 }
 
 div#pt1{
@@ -17,6 +31,7 @@ div#pt1{
     width:100%;
     height: 100vh;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.719);
+    transition: 1s;
     
 }
 
@@ -28,17 +43,20 @@ div#pt1 > div#pt1cnt{
     transform: translate(-50%,-50%);
 }
 
+/*imagem de perfil*/
 div#pt1 > div#pt1cnt > img#ft{border-radius: 50%;
         margin: 30px 0px 15px 30px;
 
 }
 
-div#pt1 > div#pt1cnt > img#lamp{ /*botão para mudança de tema*/
+/*botão para mudança de tema*/
+div#pt1 > div#pt1cnt > img#lamp{
     position: fixed;
     top: -20%;
     left: 85%;
     border-radius: 50%;
     cursor: pointer;
+    transition: 1s;
 }
 
 h1#h1pt1{
@@ -46,6 +64,7 @@ h1#h1pt1{
     font-size: 2.2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px 10px 20px 30px;
+    transition: 1s;
 }
 
 p#ppt1{
@@ -54,6 +73,7 @@ p#ppt1{
     text-align: left;
     color: #333333;
     padding: 10px 10px 30px 30px;
+    transition: 1s;
 }
 
 div#pt1 > div#pt1cnt > input.txt{
