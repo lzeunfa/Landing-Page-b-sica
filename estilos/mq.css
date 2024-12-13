@@ -20,14 +20,14 @@
     div#pt1 > div#pt1cnt > img#lamp{
         position: fixed;
         top: 85%;
-        left: 92%;
+        left: 90%;
     }
 }
 
 @media screen and (min-width:923px){
     div#pt1 > div#pt1cnt > img#lamp{
         position: fixed;
-        top: 90%;
-        left: 94%;
+        top: 85%;
+        left: 90%;
     }
 }

@@ -37,7 +37,6 @@ div#pt1 > div#pt1cnt > img#lamp{ /*botão para mudança de tema*/
     position: fixed;
     top: -20%;
     left: 85%;
-    border: 1px solid black;
     border-radius: 50%;
     cursor: pointer;
 }
