@@ -41,14 +41,14 @@ div#pt1 > div#pt1cnt > img#lamp{ /*botão para mudança de tema*/
     cursor: pointer;
 }
 
-div#pt1 > div#pt1cnt > h1{
+h1#h1pt1{
     color: #333333;
     font-size: 2.2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px 10px 20px 30px;
 }
 
-div#pt1 > div#pt1cnt > p{
+p#ppt1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2em;
     text-align: left;
