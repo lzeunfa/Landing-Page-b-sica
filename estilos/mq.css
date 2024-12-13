@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @media screen and (min-width:553px) and (max-width:679px){
-    div#pt1 > div#pt1cnt > img#seta{
+    div#pt1 > div#pt1cnt > img#lamp{
         position: fixed;
         top: -20%;
         left: 88%;
@@ -9,7 +9,7 @@
 }
 
 @media  screen and (min-width:680px) and (max-width:787px){
-    div#pt1 > div#pt1cnt > img#seta{
+    div#pt1 > div#pt1cnt > img#lamp{
         position: fixed;
         top: 85%;
         left: 90%;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (min-width:788px) and (max-width:922px){
-    div#pt1 > div#pt1cnt > img#seta{
+    div#pt1 > div#pt1cnt > img#lamp{
         position: fixed;
         top: 85%;
         left: 92%;
@@ -25,7 +25,7 @@
 }
 
 @media screen and (min-width:923px){
-    div#pt1 > div#pt1cnt > img#seta{
+    div#pt1 > div#pt1cnt > img#lamp{
         position: fixed;
         top: 90%;
         left: 94%;
